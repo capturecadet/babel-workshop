@@ -42,9 +42,20 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var myFunction = __webpack_require__(1);
+	document.write("Javascript Happy Funtimes!");
+	myFunction();
+
+
+/***/ },
+/* 1 */
 /***/ function(module, exports) {
 
-	document.write("Javascript Happy Funtimes!");
+	module.exports = function () {
+	  console.log('hello from myFunction!!');  
+	};
 
 
 /***/ }
