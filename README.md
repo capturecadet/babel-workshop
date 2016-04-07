@@ -28,9 +28,9 @@ Please ensure you download the repo and run `npm install` on a LAN connection be
 * Add this code to your index.js file:
 
 ```javascript
-var myAwesomeFunction = require(“./myAwesomeFunction”);
-myAwesomeFunction();
+import myAwesomeES6Function from './myAwesomeES6Function';
+myAwesomeES6Function();
 ```
 
-Create the `myAwesomeFunction.js` file, add a function that executes some ES6code and export it.
+* Create the `myAwesomeES6Function.js` file, add a function that executes some ES6 code and export it.
 Use babel and webpack to bundle your ES6 code and check it works in the browser.
