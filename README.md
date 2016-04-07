@@ -12,9 +12,10 @@ Please ensure you download the repo and run `npm install` on a LAN connection be
 
 ### Step 1 - Make Webpack your friend (10 Minutes)
 
-* Set up a simple html page that pulls in a javascript file called index.js.
-* Use webpack to serve and watch changes on the js file.
-* Write some sample ES5 code that writes the sentence “Javascript Happy Funtimes!” to the document, and preview it in chrome.
+* Set up a simple html page that pulls in a javascript file called `bundle.js`.
+* Use commandline webpack to bundle another file called `index.js` into `bundle.js` using webpack. Have a play around with serving and watching changes on the file.
+* You can run commandline webpack by doing `node_modules/.bin/webpack`
+* In `index.js` write some sample ES5 code that writes the sentence “Javascript Happy Funtimes!” to the document, and preview it in chrome. If you have time, you could also try creating another .js file to require into `index.js`, to see webpack in action!
 
 ### Step 2 - Require some css files! (10 Minutes)
 
